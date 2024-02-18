@@ -9,6 +9,7 @@ int main(int argc, char **argv)
     fgets(name, 255, stdin);
     printf("length = %d\n", strlen(name));
     name[strlen(name)-1] = '\0';
+    printf("Hello, %s!\n", name);
 
     return 0;
 }
